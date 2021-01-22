@@ -1,0 +1,13 @@
+package com.ali.homework;
+
+public class HomeWork {
+	static void homeWork1(){
+		
+	}
+
+	public static void main(String[] args) {
+		homeWork1();
+
+	}
+
+}

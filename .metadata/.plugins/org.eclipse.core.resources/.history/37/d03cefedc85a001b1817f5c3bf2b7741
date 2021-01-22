@@ -1,0 +1,29 @@
+package com.aili.homework;
+
+import java.util.Scanner;
+
+public class HomeWork {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("请输入一个整数（65~90）:");
+		int num = input.nextInt();
+		
+		System.out.println(num + "对应的字母： " + (char)num);
+
+	}
+
+}
+
+class HomeWork1{
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("请输入一个整数（66~90）:");
+		int num = input.nextInt();
+		
+		System.out.println(num + "对应的字母： " + (char)num);
+
+	}
+}

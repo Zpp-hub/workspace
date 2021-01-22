@@ -1,0 +1,24 @@
+package com.ali.homework;
+
+public class TestModifier {
+
+	public static void main(String[] args) {
+		Account a = new Account();
+		a.id = "1234";
+		a.password = "z123";
+		a.name = "xpp";
+		a.balance = 10000.90;
+		System.out.println("id: "+a.id);
+	}
+
+}
+//设计了一个银行账户类
+//账户对象创建（卡办理），这个账户，户主的姓名是不可以修改的，
+//余额是不想设置为负数
+
+class Account{
+	String id;
+	String password;
+	String name;
+	double balance;
+}

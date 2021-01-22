@@ -1,0 +1,56 @@
+/*
+2、练习题
+声明一个学生类Student，并声明它的属性：姓名、性别、年龄、电话号码
+创建两个对象，并为他们的属性赋值，并显示他们的信息
+*/
+package com.ali.test;
+
+
+class CalStudent {
+	public static void main(String[] args) {
+		// 创建对象
+		Student s1 = new Student();
+		Student s2 = new Student();
+
+		// 赋值
+		s1.name = "zpp";
+		s1.gender = '女';
+		s1.age = 18;
+		s1.tel = "123456";
+		s1.birthday = new MyDate();
+		
+
+		s2.name = "llz";
+		s2.gender = '男';
+		s2.age = 18;
+		s2.tel = "123456";
+
+		// 输出
+		System.out.println("姓名\t性别\t年龄\t电话\t");
+		System.out.println(s1.name + "\t" + s1.gender + "\t" + s1.age + "\t" + s1.tel);
+		System.out.println(s2.name + "\t" + s2.gender + "\t" + s2.age + "\t" + s2.tel);
+	}
+}
+
+class Student {
+	// 属性
+	String name;
+	char gender;
+	int age;
+	String tel; // 电话好、身份证号、订单号、邮政编码，数字长并且不参与算术运算，一般用String
+	MyDate birthday;
+}
+
+class MyDate{
+	int year;
+	int month;
+	int date;
+}
+
+
+
+
+
+
+
+

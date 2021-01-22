@@ -1,0 +1,26 @@
+package com.ali.test;
+
+class Rectangle {
+	// 属性
+	double length;
+	double width;
+
+}
+
+class CalRectangle{
+	// 类
+	public static void main(String[] args) {
+		// 创建对象
+		Rectangle r1 = new Rectangle();
+		Rectangle r2 = new Rectangle();
+		
+		// 赋值
+		r1.length = 3;
+		r1.width = 2;
+		
+		// 求面积
+		System.out.println("圆形r1的面积是：" + r1.length*r1.width);
+	}
+}
+
+

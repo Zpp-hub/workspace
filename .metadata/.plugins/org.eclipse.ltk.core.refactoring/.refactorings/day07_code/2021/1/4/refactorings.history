@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.ali.test.Rectangle&apos; to &apos;CalRectangle&apos;&#x0D;&#x0A;- Original project: &apos;day07_code&apos;&#x0D;&#x0A;- Original element: &apos;com.ali.test.Rectangle&apos;&#x0D;&#x0A;- Renamed element: &apos;com.ali.test.CalRectangle&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Rectangle&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.ali.test{Rectangle.java[Rectangle" matchStrategy="1" name="CalRectangle" qualified="false" references="true" similarDeclarations="false" stamp="1611278529798" textual="false" version="1.0"/>
+</session>

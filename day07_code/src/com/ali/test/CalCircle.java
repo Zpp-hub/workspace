@@ -1,0 +1,33 @@
+/*
+对象数组：
+1、声明一个圆类型，有属性：半径radius
+2、声明一个圆的数组，要存储3个圆对象
+3、为三个圆的半径赋值，从键盘输入
+4、求三个圆的面积，并显示
+5、按照半径排序
+*/
+
+package com.ali.test;
+
+import java.util.Scanner;
+
+class CalCircle {
+	public static void main(String[] args) {
+		Circle[] arr = new Circle[3];// 并没有创建圆 只是生成了一个空数据三个空位子
+
+		Scanner input = new Scanner(System.in);
+		
+		// 先创建三个圆对象
+		for (int i = 0; i < arr.length; i++) {
+			arr[i] = new Circle();
+			System.out.print("请输入圆的半径：");
+			arr[i].radius = input.nextDouble();
+			System.out.println("圆的面积为：" + arr[i].radius * arr[i].radius);
+		}
+	}
+}
+
+class Circle {
+	double radius;
+}
+

@@ -1,0 +1,21 @@
+package com.ali.test;
+
+class CalRectangle {
+
+
+}
+
+class CalRectangle{
+	// 属性
+	double length;
+	double width;
+
+	// 类
+	public static void main(String[] args) {
+		// 创建对象
+		
+
+	}
+}
+
+
